@@ -67,8 +67,8 @@
         layer_2 {
             bindings = <
 &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3       &bootloader                  &trans  &trans           &trans               &trans     &trans         &trans
-&out OUT_BLE    &trans        &trans        &kp LT            &kp GT             &trans                       &trans  &trans           &kp UP               &trans     &kp PAGE_UP    &trans
-&out OUT_TOG    &kp EQUAL     &kp COLON     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans                       &trans  &kp LEFT         &kp DOWN             &kp RIGHT  &kp PAGE_DOWN  &trans
+&out OUT_BLE    &out OUT_TOG  &trans        &kp LT            &kp GT             &trans                       &trans  &trans           &kp UP               &trans     &kp PAGE_UP    &trans
+&trans          &kp EQUAL     &kp COLON     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans                       &trans  &kp LEFT         &kp DOWN             &kp RIGHT  &kp PAGE_DOWN  &trans
 &trans          &trans        &trans        &kp HOME          &kp END            &trans       &to 3   &trans  &trans  &kp LC(LS(F10))  &kp LS(LA(LC(F10)))  &trans     &trans         &trans
                                             &trans            &trans             &trans       &trans  &trans  &trans  &trans           &trans
             >;
